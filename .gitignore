@@ -1,18 +1,25 @@
-# Build and Release Folders
-bin-debug/
-bin-release/
-[Oo]bj/
-[Bb]in/
+.git/*
+env/
+venv/
+.venv
+.venv/
 
-# Other files and folders
-.settings/
+__pycache__/
+*.py[cod]
 
-# Executables
-*.swf
-*.air
-*.ipa
-*.apk
+.idea
+*.env
+.DS_Store
+.AppleDouble
+.LSOverride
 
-# Project files, i.e. `.project`, `.actionScriptProperties` and `.flexProperties`
-# should NOT be excluded as they contain compiler settings and other important
-# information for Eclipse / Flash Builder.
+*.sublime-project
+*.sublime-workspace
+
+static/
+posts/static/
+media/
+
+db.sqlite3
+
+.vscode
